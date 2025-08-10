@@ -1,0 +1,30 @@
+{
+  "name": "samlify-libxml2-validator",
+  "version": "1.0.0",
+  "description": "A libxml2 based validator for samlify",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "npm run clean && tsc && cp -r ./schemas ./build/",
+    "clean": "rm -fr build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lersi/samlify-libxml2-validator.git"
+  },
+  "author": "Lior Shalmay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lersi/samlify-libxml2-validator/issues"
+  },
+  "homepage": "https://github.com/lersi/samlify-libxml2-validator#readme",
+  "devDependencies": {
+    "@types/node": "^24.2.0",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "node-libxml": "^5.0.6"
+  },
+  "peerDependencies": {
+    "samlify": "^2.10.1"
+  }
+}
