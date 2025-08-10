@@ -1,5 +1,5 @@
 {
-  "name": "samlify-libxml2-validator",
+  "name": "@lersi/samlify-libxml2-validator",
   "version": "1.0.0",
   "description": "A libxml2 based validator for samlify",
   "main": "build/index.js",
